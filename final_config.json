@@ -1,0 +1,83 @@
+{
+    "primary": [
+        "D:/WORK/PYTHON/RMDENOISEAOV/batch/setup__perspShape_beauty.0001.exr"
+    ],
+    "aux": {
+        "albedo": [
+            {
+                "paths": [
+                    "D:/WORK/PYTHON/RMDENOISEAOV/batch/setup__perspShape_beauty.0001.exr"
+                ],
+                "layers": [
+                    "albedo",
+                    "albedo_mse",
+                    "albedo_var"
+                ]
+            }
+        ],
+        "diffuse": [
+            {
+                "paths": [
+                    "D:/WORK/PYTHON/RMDENOISEAOV/batch/setup__perspShape_beauty.0001.exr"
+                ],
+                "layers": [
+                    "diffuse",
+                    "diffuse_mse",
+                    "directDiffuse",
+                    "indirectDiffuse",
+                    "normal",
+                    "normal_mse",
+                    "normal_var",
+                    "forward",
+                    "backward",
+                    "mse"
+                ]
+            }
+        ],
+        "specular": [
+            {
+                "paths": [
+                    "D:/WORK/PYTHON/RMDENOISEAOV/batch/setup__perspShape_beauty.0001.exr"
+                ],
+                "layers": [
+                    "specular",
+                    "specular_mse",
+                    "directSpecular",
+                    "directSpecular_blue_light",
+                    "indirectSpecular"
+                ]
+            }
+        ],
+        "color": [
+            {
+                "paths": [
+                    "D:/WORK/PYTHON/RMDENOISEAOV/batch/setup__perspShape_beauty.0001.exr"
+                ],
+                "layers": [
+                    "beauty_blue_light",
+                    "beauty_red_light",
+                    "beauty_yellow_light",
+                    "subsurface",
+                    "transmissiveGlassLobe",
+                    "transmissiveGlassLobe_blue_light",
+                    "transmissiveGlassLobe_red_light",
+                    "transmissiveGlassLobe_yellow_light"
+                ]
+            }
+        ]
+    },
+    "config": {
+        "asymmetry": 0.0,
+        "flow": false,
+        "debug": false,
+        "output-dir": "D:/WORK/PYTHON/RMDenoiseAOV/output",
+        "passes": [
+            "alpha",
+            "color",
+            "specular",
+            "diffuse"
+        ],
+        "parameters": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/20973-renderman.param",
+        "topology": "C:/Program Files/Pixar/RenderManProServer-25.2/lib/denoise/full_w1_5s_sym_gen2.topo"
+    }
+}

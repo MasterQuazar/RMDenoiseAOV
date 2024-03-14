@@ -1,0 +1,2084 @@
+{
+  "renderSetup": {
+    "name": "renderSetup",
+    "renderLayers": []
+  },
+  "sceneAOVs": {
+    "renderman": {
+      "channels": {
+        "Ci": {
+          "channelSource": {
+            "type": "string",
+            "value": "Ci"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "Ci"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": 1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "a": {
+          "channelSource": {
+            "type": "string",
+            "value": "a"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "float"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "a"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "albedo": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;C<.S'passthru'>*((U2L)|O)"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "albedo"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "albedo_mse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;C<.S'passthru'>*((U2L)|O)"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "albedo_mse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "mse"
+          }
+        },
+        "albedo_var": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;C<.S'passthru'>*((U2L)|O)"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "albedo_var"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "variance"
+          }
+        },
+        "backward": {
+          "channelSource": {
+            "type": "string",
+            "value": "motionBack"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "vector"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "backward"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "beauty_blue_light": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C[DS]*[<L.'blue_light'>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": "blue_light"
+          },
+          "name": {
+            "type": "string",
+            "value": "beauty_blue_light"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": 1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "beauty_red_light": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C[DS]*[<L.'red_light'>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": "red_light"
+          },
+          "name": {
+            "type": "string",
+            "value": "beauty_red_light"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": 1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "beauty_yellow_light": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C[DS]*[<L.'yellow_light'>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": "yellow_light"
+          },
+          "name": {
+            "type": "string",
+            "value": "beauty_yellow_light"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": 1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "diffuse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C(D[DS]*[LO])|[LO]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "diffuse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "diffuse_mse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C(D[DS]*[LO])|[LO]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "diffuse_mse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "mse"
+          }
+        },
+        "directDiffuse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C<RD>[<L.>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "directDiffuse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "directSpecular": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C<RS>[<L.>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "directSpecular"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "directSpecular_blue_light": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C<RS>[<L.'blue_light'>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": "blue_light"
+          },
+          "name": {
+            "type": "string",
+            "value": "directSpecular_blue_light"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "forward": {
+          "channelSource": {
+            "type": "string",
+            "value": "motionFore"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "vector"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "forward"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "indirectDiffuse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C<RD>[DS]+[<L.>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "indirectDiffuse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "indirectSpecular": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:C<RS>[DS]+[<L.>O]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "indirectSpecular"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "mse": {
+          "channelSource": {
+            "type": "string",
+            "value": "Ci"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "mse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "mse"
+          }
+        },
+        "normal": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;CU6L"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "normal"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "normal"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "normal_mse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;CU6L"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "normal"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "normal_mse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "mse"
+          }
+        },
+        "normal_var": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:nothruput;noinfinitecheck;noclamp;unoccluded;overwrite;CU6L"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "normal"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "normal_var"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "variance"
+          }
+        },
+        "sampleCount": {
+          "channelSource": {
+            "type": "string",
+            "value": "sampleCount"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "float"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "sum"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              1.0,
+              1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "sampleCount"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "specular": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:CS[DS]*[LO]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "specular"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "specular_mse": {
+          "channelSource": {
+            "type": "string",
+            "value": "lpe:CS[DS]*[LO]"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "color"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "specular_mse"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "mse"
+          }
+        },
+        "zfiltered": {
+          "channelSource": {
+            "type": "string",
+            "value": "zfiltered"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "float"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "zfiltered"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": ""
+          }
+        },
+        "zfiltered_var": {
+          "channelSource": {
+            "type": "string",
+            "value": "zfiltered"
+          },
+          "channelType": {
+            "type": "string",
+            "value": "float"
+          },
+          "enable": {
+            "type": "int",
+            "value": true
+          },
+          "filter": {
+            "type": "string",
+            "value": "inherit from display"
+          },
+          "filterwidth": {
+            "type": "float2",
+            "value": [
+              -1.0,
+              -1.0
+            ]
+          },
+          "lpeLightGroup": {
+            "type": "string",
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "value": "zfiltered_var"
+          },
+          "relativepixelvariance": {
+            "type": "float",
+            "value": -1.0
+          },
+          "remapBreakPoint": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapMaxValue": {
+            "type": "float",
+            "value": 0.0
+          },
+          "remapSmoothness": {
+            "type": "float",
+            "value": 0.0
+          },
+          "shadowthreshold": {
+            "type": "float",
+            "value": 0.009999999776482582
+          },
+          "statistics": {
+            "type": "string",
+            "value": "variance"
+          }
+        }
+      },
+      "displays": {
+        "beauty": {
+          "driverNode": {
+            "name": "d_openexr1",
+            "params": {
+              "asrgba": {
+                "type": "int",
+                "value": true
+              },
+              "autocrop": {
+                "type": "string",
+                "value": "false"
+              },
+              "compression": {
+                "type": "string",
+                "value": "zips"
+              },
+              "compressionlevel": {
+                "type": "float",
+                "value": 45.0
+              },
+              "exrpixeltype": {
+                "type": "string",
+                "value": "half"
+              },
+              "forcepar": {
+                "type": "float",
+                "value": 0.0
+              },
+              "metadatacount": {
+                "type": "int",
+                "value": 0
+              },
+              "storage": {
+                "type": "string",
+                "value": "scanline"
+              }
+            },
+            "type": "d_openexr"
+          },
+          "filePath": "<ws>\\images\\<scene>_v<version>_t<take>\\<scene>_<layer>_<camera>_<aov>.<f4>.<ext>",
+          "params": {
+            "denoise": {
+              "type": "int",
+              "value": false
+            },
+            "displayChannels": {
+              "type": "message",
+              "value": [
+                "Ci",
+                "albedo",
+                "directDiffuse",
+                "directSpecular_blue_light",
+                "indirectDiffuse",
+                "indirectSpecular",
+                "beauty_red_light",
+                "beauty_yellow_light",
+                "a",
+                "mse",
+                "sampleCount",
+                "albedo_var",
+                "albedo_mse",
+                "diffuse",
+                "diffuse_mse",
+                "specular",
+                "specular_mse",
+                "zfiltered",
+                "zfiltered_var",
+                "normal",
+                "normal_mse",
+                "normal_var",
+                "forward",
+                "backward",
+                "beauty_blue_light",
+                "directSpecular"
+              ]
+            },
+            "displayType": {
+              "type": "message",
+              "value": "d_openexr1.message"
+            },
+            "enable": {
+              "type": "int",
+              "value": true
+            },
+            "frameMode": {
+              "type": "int",
+              "value": 0
+            },
+            "name": {
+              "type": "string",
+              "value": ""
+            },
+            "opticalFlow": {
+              "type": "int",
+              "value": false
+            },
+            "remapBreakPoint": {
+              "type": "float",
+              "value": 0.0
+            },
+            "remapMaxValue": {
+              "type": "float",
+              "value": 0.0
+            },
+            "remapSmoothness": {
+              "type": "float",
+              "value": 0.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "sceneLightEditor": {
+    "lightEditor": {
+      "name": "lightEditor"
+    },
+    "lightGroupProperties": {
+      "lightEditor": [
+        true,
+        false,
+        "None"
+      ]
+    },
+    "lightGroupToChildren": {
+      "lightEditor": []
+    },
+    "lightItemToParent": {}
+  },
+  "sceneSettings": {
+    "renderman": {
+      "defaultNodes": {
+        "defaultRenderGlobals.animation": true,
+        "defaultRenderGlobals.animationRange": 1,
+        "defaultRenderGlobals.applyFogInPost": false,
+        "defaultRenderGlobals.binMembership": "",
+        "defaultRenderGlobals.bitDepth": 0,
+        "defaultRenderGlobals.blur2DMemoryCap": 200.0,
+        "defaultRenderGlobals.blurLength": 1.0,
+        "defaultRenderGlobals.blurSharpness": 1.0,
+        "defaultRenderGlobals.bottomRegion": 0,
+        "defaultRenderGlobals.bufferName": "<RenderPassType>:<RenderPass>.<Camera>",
+        "defaultRenderGlobals.byFrameStep": 1.0,
+        "defaultRenderGlobals.caching": false,
+        "defaultRenderGlobals.clipFinalShadedColor": true,
+        "defaultRenderGlobals.colorProfileEnabled": false,
+        "defaultRenderGlobals.comFrrt": 24,
+        "defaultRenderGlobals.composite": false,
+        "defaultRenderGlobals.compositeThreshold": 0.0,
+        "defaultRenderGlobals.createIprFile": false,
+        "defaultRenderGlobals.currentRenderer": "renderman",
+        "defaultRenderGlobals.defaultSurfaceShader": "lambert1",
+        "defaultRenderGlobals.defaultTraversalSet": "null",
+        "defaultRenderGlobals.enableDefaultLight": true,
+        "defaultRenderGlobals.enableDepthMaps": true,
+        "defaultRenderGlobals.enableStrokeRender": true,
+        "defaultRenderGlobals.evenFieldExt": "",
+        "defaultRenderGlobals.exrCompression": 0,
+        "defaultRenderGlobals.exrPixelType": 0,
+        "defaultRenderGlobals.extensionPadding": 4,
+        "defaultRenderGlobals.fieldExtControl": 0,
+        "defaultRenderGlobals.fogGeometry": null,
+        "defaultRenderGlobals.forceTileSize": false,
+        "defaultRenderGlobals.frozen": false,
+        "defaultRenderGlobals.gammaCorrection": 1.0,
+        "defaultRenderGlobals.geometryVector": 20,
+        "defaultRenderGlobals.hyperShadeBinList": "",
+        "defaultRenderGlobals.ignoreFilmGate": true,
+        "defaultRenderGlobals.imageFilePrefix": "setup",
+        "defaultRenderGlobals.imageFormat": 32,
+        "defaultRenderGlobals.imfPluginKey": "exr",
+        "defaultRenderGlobals.inputColorProfile": 3,
+        "defaultRenderGlobals.interruptFrequency": 1,
+        "defaultRenderGlobals.iprRenderMotionBlur": true,
+        "defaultRenderGlobals.iprRenderShading": true,
+        "defaultRenderGlobals.iprRenderShadowMaps": true,
+        "defaultRenderGlobals.iprShadowPass": false,
+        "defaultRenderGlobals.isHistoricallyInteresting": 2,
+        "defaultRenderGlobals.jitterFinalColor": true,
+        "defaultRenderGlobals.keepMotionVector": false,
+        "defaultRenderGlobals.leafPrimitives": 200,
+        "defaultRenderGlobals.leftRegion": 0,
+        "defaultRenderGlobals.logRenderPerformance": false,
+        "defaultRenderGlobals.macCodec": 1919706400,
+        "defaultRenderGlobals.macDepth": 32,
+        "defaultRenderGlobals.macQual": 1024,
+        "defaultRenderGlobals.matteOpacityUsesTransparency": true,
+        "defaultRenderGlobals.maximumMemory": 48,
+        "defaultRenderGlobals.message": null,
+        "defaultRenderGlobals.motionBlur": false,
+        "defaultRenderGlobals.motionBlurByFrame": 1.0,
+        "defaultRenderGlobals.motionBlurShutterClose": 0.5,
+        "defaultRenderGlobals.motionBlurShutterOpen": -0.5,
+        "defaultRenderGlobals.motionBlurType": 1,
+        "defaultRenderGlobals.motionBlurUseShutter": false,
+        "defaultRenderGlobals.multiCamNamingMode": 0,
+        "defaultRenderGlobals.nodeState": 0,
+        "defaultRenderGlobals.numCpusToUse": 0,
+        "defaultRenderGlobals.oddFieldExt": "",
+        "defaultRenderGlobals.onlyRenderStrokes": false,
+        "defaultRenderGlobals.optimizeInstances": true,
+        "defaultRenderGlobals.outFormatControl": 0,
+        "defaultRenderGlobals.outFormatExt": "",
+        "defaultRenderGlobals.outputColorProfile": 2,
+        "defaultRenderGlobals.oversamplePaintEffects": false,
+        "defaultRenderGlobals.oversamplePfxPostFilter": false,
+        "defaultRenderGlobals.periodInExt": 1,
+        "defaultRenderGlobals.postFogBlur": 1,
+        "defaultRenderGlobals.postFurRenderMel": "",
+        "defaultRenderGlobals.postMel": "",
+        "defaultRenderGlobals.postRenderLayerMel": "",
+        "defaultRenderGlobals.postRenderMel": "",
+        "defaultRenderGlobals.preFurRenderMel": "",
+        "defaultRenderGlobals.preMel": "",
+        "defaultRenderGlobals.preRenderLayerMel": "",
+        "defaultRenderGlobals.preRenderMel": "",
+        "defaultRenderGlobals.putFrameBeforeExt": true,
+        "defaultRenderGlobals.quality": null,
+        "defaultRenderGlobals.raysSeeBackground": true,
+        "defaultRenderGlobals.recursionDepth": 2,
+        "defaultRenderGlobals.renderAll": true,
+        "defaultRenderGlobals.renderLayerEnable": false,
+        "defaultRenderGlobals.renderVersion": "",
+        "defaultRenderGlobals.rendercallback": null,
+        "defaultRenderGlobals.renderedOutput": 0,
+        "defaultRenderGlobals.renderingColorProfile": 2,
+        "defaultRenderGlobals.resolution": null,
+        "defaultRenderGlobals.reuseTessellations": true,
+        "defaultRenderGlobals.rightRegion": 256,
+        "defaultRenderGlobals.shadingVector": 60,
+        "defaultRenderGlobals.shadowPass": false,
+        "defaultRenderGlobals.shadowsObeyLightLinking": true,
+        "defaultRenderGlobals.shadowsObeyShadowLinking": false,
+        "defaultRenderGlobals.skipExistingFrames": false,
+        "defaultRenderGlobals.smoothColor": false,
+        "defaultRenderGlobals.smoothValue": 2,
+        "defaultRenderGlobals.strokesDepthFile": "",
+        "defaultRenderGlobals.subdivisionHashSize": 5,
+        "defaultRenderGlobals.subdivisionPower": 0.25,
+        "defaultRenderGlobals.swatchCamera": null,
+        "defaultRenderGlobals.tiffCompression": 0,
+        "defaultRenderGlobals.tileHeight": 64,
+        "defaultRenderGlobals.tileWidth": 64,
+        "defaultRenderGlobals.topRegion": 256,
+        "defaultRenderGlobals.useBlur2DMemoryCap": true,
+        "defaultRenderGlobals.useDisplacementBoundingBox": true,
+        "defaultRenderGlobals.useFileCache": true,
+        "defaultRenderGlobals.useFrameExt": false,
+        "defaultRenderGlobals.useMayaFileName": true,
+        "defaultRenderGlobals.useRenderRegion": false,
+        "defaultRenderQuality.binMembership": "",
+        "defaultRenderQuality.blueThreshold": 0.6000000238418579,
+        "defaultRenderQuality.caching": false,
+        "defaultRenderQuality.coverageThreshold": 0.125,
+        "defaultRenderQuality.edgeAntiAliasing": 3,
+        "defaultRenderQuality.enableRaytracing": false,
+        "defaultRenderQuality.frozen": false,
+        "defaultRenderQuality.greenThreshold": 0.30000001192092896,
+        "defaultRenderQuality.isHistoricallyInteresting": 2,
+        "defaultRenderQuality.maxShadingSamples": 8,
+        "defaultRenderQuality.maxVisibilitySamples": 4,
+        "defaultRenderQuality.message": null,
+        "defaultRenderQuality.nodeState": 0,
+        "defaultRenderQuality.particleSamples": 1,
+        "defaultRenderQuality.pixelFilterType": 2,
+        "defaultRenderQuality.pixelFilterWidthX": 2.200000047683716,
+        "defaultRenderQuality.pixelFilterWidthY": 2.200000047683716,
+        "defaultRenderQuality.plugInFilterWeight": 1.0,
+        "defaultRenderQuality.rayTraceBias": 0.0,
+        "defaultRenderQuality.redThreshold": 0.4000000059604645,
+        "defaultRenderQuality.reflections": 1,
+        "defaultRenderQuality.refractions": 6,
+        "defaultRenderQuality.renderSample": false,
+        "defaultRenderQuality.shadingSamples": 1,
+        "defaultRenderQuality.shadows": 2,
+        "defaultRenderQuality.useMultiPixelFilter": false,
+        "defaultRenderQuality.visibilitySamples": 1,
+        "defaultRenderQuality.volumeSamples": 1,
+        "defaultResolution.aspectLock": false,
+        "defaultResolution.binMembership": "",
+        "defaultResolution.caching": false,
+        "defaultResolution.deviceAspectRatio": 1.7777777910232544,
+        "defaultResolution.dotsPerInch": 72.0,
+        "defaultResolution.fields": 0,
+        "defaultResolution.frozen": false,
+        "defaultResolution.height": 540,
+        "defaultResolution.imageSizeUnits": 0,
+        "defaultResolution.isHistoricallyInteresting": 2,
+        "defaultResolution.lockDeviceAspectRatio": false,
+        "defaultResolution.message": null,
+        "defaultResolution.nodeState": 0,
+        "defaultResolution.oddFieldFirst": true,
+        "defaultResolution.pixelAspect": 1.0,
+        "defaultResolution.pixelDensityUnits": 0,
+        "defaultResolution.width": 960,
+        "defaultResolution.zerothScanline": 0
+      },
+      "defaultRendererNodes": {
+        "rmanBakingGlobals.bakeMode": 0,
+        "rmanBakingGlobals.bakingImageFileFormat": "<scene>_<user:bakingIdentifier>_<aov>.<ext>",
+        "rmanBakingGlobals.binMembership": "",
+        "rmanBakingGlobals.caching": false,
+        "rmanBakingGlobals.frozen": false,
+        "rmanBakingGlobals.init": 0,
+        "rmanBakingGlobals.isHistoricallyInteresting": 2,
+        "rmanBakingGlobals.message": null,
+        "rmanBakingGlobals.nodeState": 0,
+        "rmanBakingGlobals.resolution": 512,
+        "rmanBakingGlobals.ri_integrator": null,
+        "rmanBakingGlobals.ri_maxDiffuseDepth": 1,
+        "rmanBakingGlobals.ri_maxSpecularDepth": 4,
+        "rmanBakingGlobals.rman_bakebboxmax": [
+          -1.0000000150474662e+30,
+          -1.0000000150474662e+30,
+          -1.0000000150474662e+30
+        ],
+        "rmanBakingGlobals.rman_bakebboxmaxX": -1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakebboxmaxY": -1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakebboxmaxZ": -1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakebboxmin": [
+          1.0000000150474662e+30,
+          1.0000000150474662e+30,
+          1.0000000150474662e+30
+        ],
+        "rmanBakingGlobals.rman_bakebboxminX": 1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakebboxminY": 1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakebboxminZ": 1.0000000150474662e+30,
+        "rmanBakingGlobals.rman_bakeudimoffset": 0,
+        "rmanBakingGlobals.rman_bakeudimstride": 1,
+        "rmanBakingGlobals.rman_diceDistanceLength": 0.05000000074505806,
+        "rmanGlobals.adaptiveMetric": "variance",
+        "rmanGlobals.binMembership": "",
+        "rmanGlobals.blueNoise": true,
+        "rmanGlobals.caching": false,
+        "rmanGlobals.cameraBlur": false,
+        "rmanGlobals.deep_quality": 0.75,
+        "rmanGlobals.dice_micropolygonlength": 1.0,
+        "rmanGlobals.dice_referenceCamera": "",
+        "rmanGlobals.dice_referenceCameraType": 0,
+        "rmanGlobals.dice_watertight": false,
+        "rmanGlobals.enableImagePlaneFilter": true,
+        "rmanGlobals.enableStylizedLooks": false,
+        "rmanGlobals.frozen": false,
+        "rmanGlobals.geomShadowTermBias": true,
+        "rmanGlobals.hair_minWidth": 0.5,
+        "rmanGlobals.hider_darkfalloff": 0.02500000037252903,
+        "rmanGlobals.hider_exposurebracket": [
+          -1.0,
+          1.0
+        ],
+        "rmanGlobals.hider_exposurebracket0": -1.0,
+        "rmanGlobals.hider_exposurebracket1": 1.0,
+        "rmanGlobals.hider_incremental": true,
+        "rmanGlobals.hider_maxSamples": 10,
+        "rmanGlobals.hider_minSamples": 0,
+        "rmanGlobals.imageFileFormat": "<scene>_<layer>_<camera>_<aov>.<f4>.<ext>",
+        "rmanGlobals.imageOutputDir": "<ws>/images/<scene>_v<version>_t<take>",
+        "rmanGlobals.ipr_hider_maxSamples": 64,
+        "rmanGlobals.ipr_ri_decidither": 0,
+        "rmanGlobals.ipr_ri_pixelVariance": 0.05000000074505806,
+        "rmanGlobals.isHistoricallyInteresting": 2,
+        "rmanGlobals.jobid": "240313125953",
+        "rmanGlobals.learnLightSelection": true,
+        "rmanGlobals.limits_bucketsize": [
+          16,
+          16
+        ],
+        "rmanGlobals.limits_bucketsize0": 16,
+        "rmanGlobals.limits_bucketsize1": 16,
+        "rmanGlobals.limits_geocachememory": 4096,
+        "rmanGlobals.limits_opacitycachememory": 2048,
+        "rmanGlobals.limits_othreshold": [
+          0.9959999918937683,
+          0.9959999918937683,
+          0.9959999918937683
+        ],
+        "rmanGlobals.limits_othresholdX": 0.9959999918937683,
+        "rmanGlobals.limits_othresholdY": 0.9959999918937683,
+        "rmanGlobals.limits_othresholdZ": 0.9959999918937683,
+        "rmanGlobals.limits_texturememory": 4096,
+        "rmanGlobals.lpe_diffuse2": "Diffuse,HairDiffuse,diffuse,translucent,hair4,irradiance",
+        "rmanGlobals.lpe_diffuse3": "Subsurface,subsurface",
+        "rmanGlobals.lpe_reload_definitions": "",
+        "rmanGlobals.lpe_specular2": "Specular,HairSpecularR,specular,hair1",
+        "rmanGlobals.lpe_specular3": "RoughSpecular,HairSpecularTRT,hair3",
+        "rmanGlobals.lpe_specular4": "Clearcoat",
+        "rmanGlobals.lpe_specular5": "Iridescence",
+        "rmanGlobals.lpe_specular6": "Fuzz,HairSpecularGLINTS",
+        "rmanGlobals.lpe_specular7": "SingleScatter,HairSpecularTT,hair2",
+        "rmanGlobals.lpe_specular8": "Glass,specular",
+        "rmanGlobals.lpe_user10": "",
+        "rmanGlobals.lpe_user11": "",
+        "rmanGlobals.lpe_user12": "",
+        "rmanGlobals.lpe_user2": "Albedo,DiffuseAlbedo,SubsurfaceAlbedo,HairAlbedo",
+        "rmanGlobals.lpe_user3": "Position",
+        "rmanGlobals.lpe_user4": "UserColor",
+        "rmanGlobals.lpe_user5": "",
+        "rmanGlobals.lpe_user6": "Normal,DiffuseNormal,HairTangent,SubsurfaceNormal,SpecularNormal,RoughSpecularNormal,SingleScatterNormal,FuzzNormal,IridescenceNormal,GlassNormal",
+        "rmanGlobals.lpe_user7": "",
+        "rmanGlobals.lpe_user8": "",
+        "rmanGlobals.lpe_user9": "",
+        "rmanGlobals.message": null,
+        "rmanGlobals.motionBlur": 0,
+        "rmanGlobals.motionSamples": 2,
+        "rmanGlobals.nodeState": 0,
+        "rmanGlobals.ocioColorSpaceName": "",
+        "rmanGlobals.ocioConfig": 0,
+        "rmanGlobals.ocioConfigPath": "",
+        "rmanGlobals.ocioEnabled": 0,
+        "rmanGlobals.opt_bucket_order": "circle",
+        "rmanGlobals.opt_cropWindowBottomRight": [
+          1.0,
+          1.0
+        ],
+        "rmanGlobals.opt_cropWindowBottomRight0": 1.0,
+        "rmanGlobals.opt_cropWindowBottomRight1": 1.0,
+        "rmanGlobals.opt_cropWindowEnable": false,
+        "rmanGlobals.opt_cropWindowTopLeft": [
+          0.0,
+          0.0
+        ],
+        "rmanGlobals.opt_cropWindowTopLeft0": 0.0,
+        "rmanGlobals.opt_cropWindowTopLeft1": 0.0,
+        "rmanGlobals.opt_oslSIMDEnable": true,
+        "rmanGlobals.opt_oslStatistics": 0,
+        "rmanGlobals.opt_oslVerbosity": 0,
+        "rmanGlobals.opt_oslmatchcpp": false,
+        "rmanGlobals.outputAllShaders": false,
+        "rmanGlobals.outputShadowAOV": 0,
+        "rmanGlobals.pixelFilterMode": "importance",
+        "rmanGlobals.reentrantProcedurals": true,
+        "rmanGlobals.renderVariant": "ris",
+        "rmanGlobals.rfm_referenceFrame": 0,
+        "rmanGlobals.ri_displayFilter": "gaussian",
+        "rmanGlobals.ri_displayFilterSize": [
+          2.0,
+          2.0
+        ],
+        "rmanGlobals.ri_displayFilterSize0": 2.0,
+        "rmanGlobals.ri_displayFilterSize1": 2.0,
+        "rmanGlobals.ri_hider_adaptAll": false,
+        "rmanGlobals.ri_integrator": null,
+        "rmanGlobals.ri_maxDiffuseDepth": 1,
+        "rmanGlobals.ri_maxSpecularDepth": 4,
+        "rmanGlobals.ri_pixelVariance": 0.014999999664723873,
+        "rmanGlobals.ribFileFormat": "<camera><layer>.<f4>.rib",
+        "rmanGlobals.ribOutputDir": "<ws>/renderman/rib/<scene>/v<version>_t<take>",
+        "rmanGlobals.rlfData": "init",
+        "rmanGlobals.rmanVersion": "25.2",
+        "rmanGlobals.roughnessMollification": 1.0,
+        "rmanGlobals.shadowBumpTerminator": true,
+        "rmanGlobals.shutterAngle": 180,
+        "rmanGlobals.shutterCloseStart": 1.0,
+        "rmanGlobals.shutterOpenEnd": 0.0,
+        "rmanGlobals.shutterTiming": 0,
+        "rmanGlobals.statistics_level": 1,
+        "rmanGlobals.statistics_xmlfilename": "",
+        "rmanGlobals.take": 1,
+        "rmanGlobals.trace_autobias": true,
+        "rmanGlobals.trace_bias": 0.0010000000474974513,
+        "rmanGlobals.trace_worldoffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rmanGlobals.trace_worldoffsetX": 0.0,
+        "rmanGlobals.trace_worldoffsetY": 0.0,
+        "rmanGlobals.trace_worldoffsetZ": 0.0,
+        "rmanGlobals.trace_worldorigin": "camera",
+        "rmanGlobals.txmanagerData": "{}",
+        "rmanGlobals.user_iesIgnoreWatts": true,
+        "rmanGlobals.user_sceneUnits": 1.0,
+        "rmanGlobals.version": 1,
+        "rmanGlobals.volume_aggregatespace": "world",
+        "rmanGlobals.xpuMode": [
+          1,
+          1
+        ],
+        "rmanGlobals.xpuMode0": 1,
+        "rmanGlobals.xpuMode1": 1
+      },
+      "userData": {
+        "rmanGlobals.ri_integrator": {
+          "name": "PxrPathTracer",
+          "node_type": "PxrPathTracer",
+          "params": {
+            "PxrPathTracer.accumOpacity": {
+              "type": "int",
+              "value": false
+            },
+            "PxrPathTracer.allowCaustics": {
+              "type": "int",
+              "value": false
+            },
+            "PxrPathTracer.clampDepth": {
+              "type": "int",
+              "value": 2
+            },
+            "PxrPathTracer.clampLuminance": {
+              "type": "float",
+              "value": 10.0
+            },
+            "PxrPathTracer.jointSampling": {
+              "type": "int",
+              "value": false
+            },
+            "PxrPathTracer.jointScatteringBias": {
+              "type": "float",
+              "value": 0.5
+            },
+            "PxrPathTracer.maxContinuationLength": {
+              "type": "int",
+              "value": -1
+            },
+            "PxrPathTracer.maxIndirectBounces": {
+              "type": "int",
+              "value": 8
+            },
+            "PxrPathTracer.maxNonStochasticOpacityEvents": {
+              "type": "int",
+              "value": 0
+            },
+            "PxrPathTracer.numBxdfSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numDiffuseSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numIndirectSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numLightSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numRefractionSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numSpecularSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numSubsurfaceSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.numVolumeAggregateSamples": {
+              "type": "int",
+              "value": 1
+            },
+            "PxrPathTracer.risPathGuiding": {
+              "type": "int",
+              "value": false
+            },
+            "PxrPathTracer.rouletteDepth": {
+              "type": "int",
+              "value": 4
+            },
+            "PxrPathTracer.rouletteThreshold": {
+              "type": "float",
+              "value": 0.20000000298023224
+            },
+            "PxrPathTracer.sampleMode": {
+              "type": "string",
+              "value": "bxdf"
+            },
+            "PxrPathTracer.volumeAggregate": {
+              "type": "string",
+              "value": "globalVolumeAggregate"
+            },
+            "PxrPathTracer.volumeAggregateCamera": {
+              "type": "string",
+              "value": ""
+            },
+            "PxrPathTracer.volumeAggregateIndirect": {
+              "type": "string",
+              "value": ""
+            },
+            "PxrPathTracer.volumeAggregateTransmission": {
+              "type": "string",
+              "value": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
